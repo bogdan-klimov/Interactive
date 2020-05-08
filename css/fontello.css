@@ -29,16 +29,17 @@
 
 .icon-angle-left:before { 
   content: '\f104'; 
-  cursor: pointer;
+  color: black;
+  z-index: 10;
 }
 
 .icon-angle-right:before { 
   content: '\f105'; 
 }
 
-.icon-angle-left, .icon-angle-right {
+/* .icon-angle-left, .icon-angle-right {
   font-size: 30px;
   background-color: #ffffff;
   top: calc(50% - 20px);
-}
+} */
 

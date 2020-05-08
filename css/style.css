@@ -335,3 +335,30 @@ h1 {
 font-family: "Proxima Nova Rg";
 font-weight: 700;
 }
+
+@media (max-width: 991px){
+    .best-code {
+        text-align: center;
+        margin: 70px auto;
+    }
+
+    .design .btn {
+        margin: 0 auto;
+    }
+
+    .best-design {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .other-person-description {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    } 
+
+    .person {
+        margin-top: 50px;
+    }
+
+}
