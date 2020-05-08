@@ -29,17 +29,27 @@
 
 .icon-angle-left:before { 
   content: '\f104'; 
-  color: black;
+  left: 0;
   z-index: 10;
 }
 
 .icon-angle-right:before { 
-  content: '\f105'; 
+  content: '\f105';
+  right: 0; 
 }
 
-/* .icon-angle-left, .icon-angle-right {
-  font-size: 30px;
+.icon-angle-left:hover, .icon-angle-right:hover {
+  text-decoration: none;
+  color: #d0d0d0;
+}
+
+.icon-angle-left, .icon-angle-right {
+  position: absolute;
+  color: #121212;
   background-color: #ffffff;
-  top: calc(50% - 20px);
-} */
+  font-size: 30px;
+  top: calc(50% - 30px);
+  margin: 0;
+}
+
 
