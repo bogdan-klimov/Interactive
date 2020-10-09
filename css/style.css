@@ -231,6 +231,7 @@ h1 {
     display: flex;
     justify-content: center;
     transition: .5s;
+    margin-left: 1020px;
 }
 
 .gallery-description {
