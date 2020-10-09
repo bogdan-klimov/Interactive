@@ -43,7 +43,7 @@
   color: #d0d0d0;
 }
 
-.icon-angle-left, .icon-angle-right {
+.icon-angle-left::before, .icon-angle-right::before {
   position: absolute;
   color: #121212;
   background-color: #ffffff;

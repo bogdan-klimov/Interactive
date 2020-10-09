@@ -180,18 +180,35 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
+    min-width: 510px;
 }
 
 .gallery li:first-child {
-    background-image: url('../images/portfolio-1.png');
-}
-
-.gallery li:nth-child(2) {
     background-image: url('../images/portfolio-2.png');
 }
 
-.gallery li:nth-child(3) {
+.gallery li:nth-child(2) {
     background-image: url('../images/portfolio-3.png');
+}
+
+.gallery li:nth-child(3) {
+    background-image: url('../images/portfolio-1.png');
+}
+
+.gallery li:nth-child(4) {
+    background-image: url('../images/portfolio-2.png');
+}
+
+.gallery li:nth-child(5) {
+    background-image: url('../images/portfolio-3.png');
+}
+
+.gallery li:nth-child(6) {
+    background-image: url('../images/portfolio-1.png');
+}
+
+.gallery li:last-child {
+    background-image: url('../images/portfolio-2.png');
 }
 
 .gallery-description h2 {
@@ -213,7 +230,7 @@ h1 {
 .gallery {
     display: flex;
     justify-content: center;
-    margin: 0;
+    transition: .5s;
 }
 
 .gallery-description {
@@ -336,8 +353,12 @@ h1 {
 }
 
 .text-strong {
-font-family: "Proxima Nova Rg";
-font-weight: 700;
+    font-family: "Proxima Nova Rg";
+    font-weight: 700;
+}
+
+.visitible-window {
+    overflow: hidden;
 }
 
 @media (max-width: 991px){
